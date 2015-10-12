@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Esty Page</title>
+
+
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Tinos' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header>
+      <div class="nav-header">  
+        <div class="nav-title">
+          <h1>Etsy</h1>
+        </div> 
+
+        <div class="nav-search">
+          <div class="nav-form">
+
+            <input class="input-text" type="text" placeholder="" required>
+
+            <button class="input-button" type="button" value="Search">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-login">
+          <a class="log" href="#" >Sell on Etsy</a>
+          <a class="log" href="#" >Register</a>
+          <a class="log-signin" href="#" >Sign in</a>
+          <a class="log-cart" href="#" >
+            Cart</a>
+    
+      </div>
+  
+
+  </header>
+
+
+  <div class="sub-header">
+    <div class="sub-catagories">
+      <a href="#" >Clothing & Accessories</a>
+      <a href="#" >Jewelry</a>
+      <a href="#" >Craft Supplies & Tools</a>
+      <a href="#" >Weddings</a>
+      <a href="#" >Entertainment</a>
+      <a href="#" >Home & Living</a>
+      <a href="#" >Kids & Baby</a>
+      <a href="#" >Vintage</a>
+    </div>
+
+  </div>
+
+
+  <div class="main">
+    <div class="content">
+      
+      <aside>
+        
+        <h4 class="cat-results">Show results for:  
+        </h4>
+        
+        <div class="categories">
+          
+          <h4 class="all-categories">All Categories</h4>
+          <ul class="categories-list">
+            <li><a href="#">Home & Living</a></li>
+            <li><a href="#">Craft Supplies & Tools</a></li>    
+            <li><a href="#">Pet Supplies</a></li>
+            <li><a href="#">Accessories</a></li> 
+            <li><a href="#">Bags & Purses</a></li>          
+            <li><a href="#">Art & Collectibles</a></li>
+            <li><a href="#">Clothing</a></li>  
+          </ul>
+
+        </div>
+
+
+        <h4 class="filter-results">Refine your search
+        </h4>
+
+
+
+        <div class="filter">
+          
+          <div class="filter-type">
+
+            <h4 class="item-type">Item Type</h4>
+            
+            <div class="item-types">
+              <div>
+                <label class="radio" checked="checked">
+                  <input type="radio">
+                  <a href="#">All Items</a>
+                </label>
+              </div>
+              <div>
+                <label class="radio">
+                  <input type="radio">
+                  <a href="#">Handmade</a>
+                </label>
+              </div>
+              <div>
+                <label class="radio">
+                  <input type="radio">
+                  <a href="#">Vintage</a>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-price">
+
+            <h4 class="price">Price</h4>
+
+            <div class="price-range">
+
+              <input class="price-input" type="search" placeholder="$ Low">
+              <a>to</a>
+              <input class="price-input" type="search" placeholder="$ Low">
+              <input type="button" class="price-submit" placeholder="">
+              </input>
+            </div>
+
+          </div>
+
+          <div class="filter-color">
+            <h4 class="color">Filter by Color</h4>
+            
+            <div class="colors">
+              <a class="red" href="#"></a>
+              <a class="orange" href="#"></a>
+              <a class="yellow" href="#"></a>
+              <a class="green" href="#"></a>
+              <a class="blue" href="#"></a>
+              <a class="purple" href="#"></a>
+              <a class="black" href="#"></a>
+              <a class="white" href="#"></a>
+            </div> 
+          </div>
+
+
+          <div class="filter-order">
+            <h4 class="options">Ordering Options</h4>
+            <div class="order-options">
+              <div>
+                <label class="checkbox">
+                  <input type="checkbox">
+                  <a href="#">Accepts Etsy Gift Cards</a>
+                </label>
+              </div>
+              <div>
+                <label class="checkbox">
+                  <input type="checkbox">
+                  <a href="#">Customizable</a>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-location">
+
+            <h4 class="local-shop">Shop Location</h4>
+
+            <div class="location">
+              <div>
+                <label class="radio">
+                  <input type="radio">
+                  <a href="#">Anywhere</a>
+                </label>
+              </div>
+              <div>
+                <label class="radio">
+                  <input type="radio">
+                  <a href="#">United States</a>
+                </label>
+              </div>
+            </div>
+
+              <a class="local-custom"><a href="#">Choose a custom location</a>
+              </a>
+          </div>
+
+          <div class="filter-ship">
+            <h4 class="ship">Ship To</h4>
+            <select name="ship" class="ship-to">United States
+            </select>
+
+          </div>
+
+        </div>
+
+      </aside>
+
+
+      <section>
+
+          
+        <div class="item-search">
+          <div class="search-results">
+            <h4><a href="#">All Categories</a></h4>
+            <h4> > "shibori pillow"</h4>
+            <h4>(1,035 Results)</h4>
+          </div>
+
+          <div class="sort">
+            <h4>Sort by:</h4>
+            <h4><a href="#">Relevancy</a></h4>
+          </div>
+        </div>
+
+
+        <div class="item-results">
+
+        
+          <script type="text/template" id="itemTemplate">
+
+           <div class= "item">
+
+              <div class= "item-img">
+                <p><img src=" <%= Images[0].url_170x135 %>"></p>
+              </div>
+
+              <div class="item-disc">   
+                <div class="item-title">
+                  <p> <%= title %></p> 
+                </div>
+                <div class="item-subtitle">
+                  <p class="shop"><a href="#"> <%= Shop.shop_name %> </a> </p>
+                  <p class="price"><%= "$"+price+" "+currency_code %></p>
+                </div>    
+              </div>
+
+            </div>
+
+          </script>
+
+        </div>
+
+        
+      </section>
+
+
+      <footer> 
+
+        <div class="related">
+          <h4 class="related-sub">Related to</h4>
+          <h4 class="related-sub">shibori pillow</h4>
+        </div>
+            
+        <div class="related-items">
+          <a href="#">hmong pillow</a>
+          <a href="#">mudcloth pillow</a>
+          <a href="#">batik pillow</a>
+          <a href="#">indigo pillow</a>
+          <a href="#">indigo batik pillow</a>
+          <a href="#">shibori fabric</a>
+          <a href="#">kilim pillow</a>
+          <a href="#">moroccan pillow</a> 
+          <a href="#">indigo mudcloth pillow</a>
+          <a href="#">boho pillow</a>   
+        </div>
+
+        <div class="footer-nav">
+          <a class="page"><</a>
+          <a class="page" href="#">1</a>
+          <a class="page" href="#">2</a>
+          <a class="page"href="#">3</a>
+          <a class="page"href="#">4</a>
+          <a class="page"href="#">5</a>
+          <a class="page"href="#">6</a>
+          <a class="page"href="#">7</a>
+          <a class="page"href="#">8</a>
+          <a class="page"disabled="disabled">...</a>
+          <a class="page"href="#">12</a>
+          <a class="page">></a>  
+        </div>
+      
+      </footer>
+
+    </div>
+   
+  </div>
+
+</div>
+
+
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+ 
+  <script src="js/etsy.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
