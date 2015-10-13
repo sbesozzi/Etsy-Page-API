@@ -211,9 +211,9 @@ div {
 
 .price {
   padding-left: 10px;
+  padding-bottom: 5px;
   font-size: 13px;
   margin-bottom: 0;
-  padding-bottom: 5px;
   color: #555;
   font-family: Arial, sans-serif; }
 
@@ -230,17 +230,28 @@ div {
 
 .price-input {
   margin-left: 10px;
-  width: 58px;
+  width: 62px;
   height: 35px;
   border: 1px solid #E1E3DF;
   border-radius: 3px;
-  font-size: 14px;
+  font-size: 14px; }
+
+.price-input a {
   padding-left: 10px; }
+
+.price-input-b {
+  margin-left: 10px;
+  width: 62px;
+  height: 35px;
+  border: 1px solid #E1E3DF;
+  border-radius: 3px;
+  font-size: 14px; }
 
 .price-submit {
   width: 40px;
   height: 35px;
-  padding: 0;
+  margin-left: 10px;
+  padding-bottom: 10px;
   border: 1px solid #E1E3DF;
   border-radius: 3px;
   outline: none;
@@ -263,6 +274,8 @@ div {
 .colors {
   height: 25px;
   width: 250px;
+  margin-top: 0;
+  padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 10px; }
 
@@ -531,7 +544,7 @@ section {
   font-family: Arial, sans-serif;
   text-decoration: none; }
 
-.price {
+.item-price {
   float: right;
   color: #78c042;
   font-family: Arial, sans-serif; }
