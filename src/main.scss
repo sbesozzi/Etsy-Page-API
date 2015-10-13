@@ -594,8 +594,16 @@
           padding-left: 5px;
           font-size: 13px;
           font-family: Arial, sans-serif;
+          color: #555;
           display: inline;
 
+        }
+
+        .search-results a {
+          font-size: 13px;
+          font-family: Arial, sans-serif;
+          color: #555;
+          text-decoration: none;
         }
       
 
@@ -603,13 +611,21 @@
         padding-top: 0;
         padding-bottom: 0;
         height: 30px;
-        width: 186px;
+        width: 180px;
         float: right;
       }
          .sort h4 {
           font-size: 13px;
           font-family: Arial, sans-serif;
+          color: #555;
           display: inline;
+        }
+
+         .sort a {
+          font-size: 13px;
+          font-family: Arial, sans-serif;
+          color: #555;
+          text-decoration: none;
         }
       
 
@@ -634,7 +650,6 @@
             display: inline-block;
             float: left;
           }
-
 
           .icons {
           width: 60px;
@@ -743,10 +758,10 @@
         
    
       .related-items {
-        height: 80px;
+        height: 92px;
         padding-bottom: 25px;
           text-align: left;
-          display: inline-block;
+          
 
       }
 
@@ -755,9 +770,10 @@
             font-size: 13px;
             color: #0192B5;
             text-decoration: none;
-            width: 50px;
+            width: 150px;
             padding-bottom: 10px;
             padding-right: 10px;
+            display: inline-block;
               }
 
         
