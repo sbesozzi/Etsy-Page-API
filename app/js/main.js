@@ -30,4 +30,14 @@
       $('.item-results').append(itemHTML);
     });
   });
+
+  // Hover icons in item
+
+  $('item-results').on('mouseenter', '.item', function () {
+    $(this).find('.icons').addClass('show-icons');
+  });
+
+  $('.item-results').on('mouseleave', '.item', function () {
+    $(this).find('.icons').removeClass('show-icons');
+  });
 })();

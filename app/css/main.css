@@ -221,11 +221,12 @@ div {
   height: 200px;
   display: inline;
   border-bottom: 1px solid #D4D4D4; }
-  .filter-price .price-range a {
-    padding: 0;
-    color: #555;
-    font-family: Arial, sans-serif;
-    font-size: 13px; }
+
+.price-range a {
+  padding: 0;
+  color: #555;
+  font-family: Arial, sans-serif;
+  font-size: 13px; }
 
 .price-input {
   margin-left: 10px;
@@ -335,13 +336,14 @@ div {
 .filter-order {
   height: 90px;
   border-bottom: 1px solid #D4D4D4; }
-  .filter-order .options {
-    padding-left: 10px;
-    font-size: 13px;
-    margin-bottom: 0;
-    padding-bottom: 10px;
-    font-family: Arial, sans-serif;
-    color: #555; }
+
+.options {
+  padding-left: 10px;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  font-family: Arial, sans-serif;
+  color: #555; }
 
 .order-options {
   padding-left: 10px; }
@@ -387,22 +389,24 @@ div {
 
 .filter-ship {
   height: 76px; }
-  .filter-ship .ship {
-    padding-left: 10px;
-    font-size: 13px;
-    margin-bottom: 0;
-    font-family: Arial, sans-serif;
-    color: #555; }
-  .filter-ship .ship-to {
-    width: 215px;
-    height: 40px;
-    margin-top: 10px;
-    margin-left: 10px;
-    background-color: white;
-    border-radius: 3px;
-    border-bottom: 1px solid #E1E3DF;
-    color: black;
-    outline: none; }
+
+.ship {
+  padding-left: 10px;
+  font-size: 13px;
+  margin-bottom: 0;
+  font-family: Arial, sans-serif;
+  color: #555; }
+
+.ship-to {
+  width: 215px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  border-radius: 3px;
+  border-bottom: 1px solid #E1E3DF;
+  color: black;
+  outline: none; }
 
 section {
   margin-left: auto;
@@ -435,10 +439,11 @@ section {
   height: 30px;
   width: 186px;
   float: right; }
-  .sort h4 {
-    font-size: 13px;
-    font-family: Arial, sans-serif;
-    display: inline; }
+
+.sort h4 {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  display: inline; }
 
 .item-results {
   width: 730px;
@@ -455,6 +460,21 @@ section {
   overflow: hidden;
   display: inline-block;
   float: left; }
+
+.icons {
+  width: 60px;
+  height: 20px;
+  margin: 0;
+  background-color: white;
+  border: 1px solid #E1E3DF;
+  border-radius: 3px;
+  left: 158px;
+  top: 5px;
+  position: relative;
+  display: none; }
+  .icons.show-icons {
+    display: block !important;
+    position: absolute; }
 
 .item-img {
   height: 180px;
@@ -521,41 +541,39 @@ footer {
   display: inline; }
 
 .related-items {
+  height: 80px;
   padding-bottom: 25px;
   text-align: left;
   display: inline-block; }
-  .related-items a {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    color: #0192B5;
-    text-decoration: none;
-    width: 50px;
-    padding-bottom: 5px; }
+
+.related-items a {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #0192B5;
+  text-decoration: none;
+  width: 50px;
+  padding-bottom: 10px;
+  padding-right: 10px; }
 
 .footer-nav {
-  width: 450px;
-  height: 38px;
+  width: 400px;
+  height: 28px;
   background-color: white;
+  padding-bottom: 0;
+  padding-top: 8px;
   border: 1px solid #E1E3DF;
   border-radius: 3px;
   text-align: center; }
 
 .footer-nav a {
-  margin-top: 20px;
-  padding-left: 12px;
-  padding-top: 8px;
-  padding-left: 12px;
-  padding-bottom: 8px;
+  margin: 0;
+  padding-left: 8px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
-  color: #555; }
-
-.page {
-  width: 50px;
-  height: 50px;
-  margin: 0;
-  padding-top: 15px;
-  padding-right: 10px;
-  border: 1px solid #E1E3DF; }
+  color: #555;
+  border-right: 1px solid #E1E3DF; }
