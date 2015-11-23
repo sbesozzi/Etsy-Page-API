@@ -1,3 +1,4 @@
 ## This is a Readme
 
-> You should probably update me.
+> Creating an etsy page using an API
+- Deployed version at http://sbesozzi.etsypage.surge.sh/
